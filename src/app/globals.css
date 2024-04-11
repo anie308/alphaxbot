@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -31,3 +33,27 @@ body {
     text-wrap: balance;
   }
 }
+
+.join {
+  background: linear-gradient(to right, #081428, #6942e2);
+  background-color: #081428;
+}
+
+.box1{
+  background: #28E7C580;
+  filter: blur(150px);
+}
+.box2{
+  background: #6942E280;
+  filter: blur(150px);
+}
+.rd1{
+  background: linear-gradient(to right, #081428, #6942E2);
+}
+.rd2{
+  background: linear-gradient(to right, #04473B, #28E7C5);
+}
+.rd3{
+  background: linear-gradient(to right, #371C8A, #1BAB91);
+}
+
