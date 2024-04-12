@@ -33,9 +33,9 @@ function Navbar() {
             <FaPlus className="rotate-45 text-[30px]" />
           </button>
         </div>
-        <Link href="/">Features</Link>
-        <Link href="/">AlphaX Whitepaper</Link>
-        <button className="bg-[#6942E2] text-white p-[8px_30px] rounded-[6px]">
+        <Link href="/" onClick={() => setOpen(!open)}>Features</Link>
+        <Link href="/" onClick={() => setOpen(!open)}>AlphaX Whitepaper</Link>
+        <button onClick={() => setOpen(!open)} className="bg-[#6942E2] text-white p-[8px_30px] rounded-[6px]">
           Join us
         </button>
       </div>

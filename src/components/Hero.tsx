@@ -7,11 +7,11 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function Hero() {
   return (
-    <div className="overflow-hidden h-[550px] lg:h-[650px] relative">
+    <div className="overflow-hidden h-[600px] lg:h-[650px] relative">
       <Image src={herobg} alt="hero" className="w-full h-full object-cover" />
       <div className="absolute top-0 w-full h-full grid lg:grid-cols-2 gap-[20px] p-[20px] items-center">
-        <div className="lg:pl-[40px]">
-          <p className="text-[30px] lg:text-[64px] font-[600] leading-[40px] lg:leading-[76px] font-syne">
+        <div className="mt-[20px] lg:mt-0 lg:pl-[40px]">
+          <p className="text-[35px] lg:text-[64px] font-[600] leading-[40px] lg:leading-[76px] font-syne">
             Trade like an ALPHA with AI-powered{" "}
             <span className="text-[#6942E2]">onchain</span> analysis!
           </p>
