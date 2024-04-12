@@ -43,6 +43,9 @@ body {
   background: #28E7C580;
   filter: blur(150px);
 }
+.buy{
+  filter: blur(80px);
+}
 .box2{
   background: #6942E280;
   filter: blur(150px);
