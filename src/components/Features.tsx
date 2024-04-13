@@ -1,5 +1,12 @@
 import React from "react";
+import onchain from "@/assets/onchain.svg";
+import multi from "@/assets/multi.svg";
+import compre from "@/assets/compre.svg";
+import trading from "@/assets/trading.svg";
+import intuit from "@/assets/intuit.svg";
+import high from "@/assets/high.svg";
 
+import Image from "next/image";
 function Features() {
   return (
     <div className="bg-[#FBFAFF] flex flex-col items-center justify-center px-[20px] overflow-hidden py-[50px] lg:py-[100px] relative">
@@ -12,7 +19,13 @@ function Features() {
       </p>
       <div className="grid lg:grid-cols-3 gap-[20px] w-full lg:w-[80%] z-20">
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
-          <div className="h-[136px] w-full bg-black"></div>
+          <div className="h-[136px] w-full bg-black">
+            <Image
+              src={onchain}
+              alt=""
+              className="h-full w-full object-cover"
+            />
+          </div>
           <p className="font-syne text-[#081428] text-[20px] font-[600] mt-[5px]">
             Onchain Analysis & AI Signals
           </p>
@@ -26,7 +39,9 @@ function Features() {
           </p>
         </div>
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
-          <div className="h-[136px] w-full bg-black"></div>
+          <div className="h-[136px] w-full bg-black">
+            <Image src={multi} alt="" className="h-full w-full object-cover" />
+          </div>
           <p className="font-syne text-[#081428] text-[20px] font-[600] mt-[5px]">
             Multi-Chain Compatibility
           </p>
@@ -36,7 +51,9 @@ function Features() {
           </p>
         </div>
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
-          <div className="h-[136px] w-full bg-black"></div>
+          <div className="h-[136px] w-full bg-black">
+            <Image src={compre} alt="" className="h-full w-full object-cover" />
+          </div>
           <p className="font-syne text-[#081428] text-[20px] font-[600] mt-[5px]">
             Comprehensive Signal Delivery
           </p>
@@ -46,7 +63,13 @@ function Features() {
           </p>
         </div>
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
-          <div className="h-[136px] w-full bg-black"></div>
+          <div className="h-[136px] w-full bg-black">
+            <Image
+              src={trading}
+              alt=""
+              className="h-full w-full object-cover"
+            />
+          </div>
           <p className="font-syne text-[#081428] text-[20px] font-[600] mt-[5px]">
             Customizable Trading Strategies
           </p>
@@ -56,7 +79,9 @@ function Features() {
           </p>
         </div>
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
-          <div className="h-[136px] w-full bg-black"></div>
+          <div className="h-[136px] w-full bg-black">
+            <Image src={intuit} alt="" className="h-full w-full object-cover" />
+          </div>
           <p className="font-syne text-[#081428] text-[20px] font-[600] mt-[5px]">
             Intuitive User Interface
           </p>
@@ -66,7 +91,9 @@ function Features() {
           </p>
         </div>
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
-          <div className="h-[136px] w-full bg-black"></div>
+          <div className="h-[136px] w-full bg-black">
+            <Image src={high} alt="" className="h-full w-full object-cover" />
+          </div>
           <p className="font-syne text-[#081428] text-[20px] font-[600] mt-[5px]">
             High Accuracy and Reliability
           </p>
