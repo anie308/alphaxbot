@@ -6,7 +6,7 @@ function FaQ() {
       <p className="text-[#081428] mb-[40px] font-[600] font-syne text-[24px] lg:text-[36px] text-center">
         Frequently Asked Questions
       </p>
-      <div className="grid lg:grid-cols-3 gap-[20px] w-full lg:w-[80%]">
+      <div className="grid lg:grid-cols-3 gap-[20px] w-full lg:w-[80%] 2xl:container">
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
           <p className="font-syne font-[600] text-[36px] text-[#D9D9D9]">1</p>
           <p className="font-syne text-[#081428] text-[24px] font-[600]">

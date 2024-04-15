@@ -10,7 +10,7 @@ function RoadMap() {
       <p className="text-[#081428] mb-[40px] font-[600] font-syne text-[28px] lg:text-[36px] text-center z-20">
         Roadmap
       </p>
-      <div className="w-full lg:w-[70%] text-black grid gap-[20px]">
+      <div className="w-full lg:w-[70%] text-black grid gap-[20px] 2xl:container">
         <div
           className={`${
             step === 1 ? "h-fit " : "h-[70px]"

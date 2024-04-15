@@ -5,7 +5,8 @@ import buy from "@/assets/buy.svg";
 
 function Buy() {
   return (
-    <div className="bg-[#081428] p-[40px_20px]  lg:p-[50px_40px] h-fit lg:h-[700px] grid lg:grid-cols-2 gap-[40px]  items-center">
+    <div className="flex items-center justify-center w-full bg-[#081428]">
+      <div className=" p-[40px_20px]  lg:p-[50px_40px] h-fit lg:h-[700px] grid lg:grid-cols-2 gap-[40px] 2xl:gap-[100px] 2xl:container items-center">
       <div className="my-[40px] lg:mt-0 relative flex items-center justify-center w-full min-h-full">
         <div className="h-[200px] lg:h-[300px] buy w-[200px] lg:w-[300px] bg-[#28E7C5] rounded-full"></div>
         <div className="absolute">
@@ -29,6 +30,7 @@ function Buy() {
           succeed.
         </p>
       </div>
+    </div>
     </div>
   );
 }

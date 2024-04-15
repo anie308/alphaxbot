@@ -5,7 +5,8 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="grid lg:grid-cols-2 bg-[#081428] p-[40px_20px] lg:p-[50px]">
+   <div className="bg-[#081428] w-full flex items-center justify-center">
+     <div className="grid lg:grid-cols-2  p-[40px_20px] lg:p-[70px_50px] 2xl:container">
       <div>
         <Link href="/">
           <Image src={logo} alt="logo" className="h-[50px]" />
@@ -23,6 +24,7 @@ function Footer() {
         <div className="text-[24px] font-syne">Whitepaper</div>
       </div>
     </div>
+   </div>
   );
 }
 

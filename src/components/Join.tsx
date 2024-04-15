@@ -3,8 +3,8 @@ import rock from "@/assets/rock.svg";
 import Image from "next/image";
 function Join() {
   return (
-    <div className="bg-[#6942E2] h-[750px] lg:h-[800px] flex items-center justify-center px-[20px] lg:p-0">
-      <div className="h-[85%] lg:h-[70%] w-full lg:w-[75%] flex flex-col lg:flex-row items-center justify-between border join rounded-[20px] lg:rounded-[43px] p-[30px_40px] lg:p-[20px_40px]">
+    <div className="bg-[#6942E2] h-[800px] lg:h-[800px] flex items-center justify-center px-[20px] lg:p-0">
+      <div className="h-[85%] lg:h-[70%] w-full lg:w-[75%] flex flex-col lg:flex-row items-center justify-between border join rounded-[20px] lg:rounded-[43px] p-[30px_40px] lg:p-[20px_40px] 2xl:container">
         <div className="flex-1">
           <p className="font-syne text-[35px] lg:text-[64px] leading-[40px] lg:leading-[70px]">
             Be a king in the trading game. Play like one.
@@ -14,8 +14,8 @@ function Join() {
             <button className="rounded-[4px] p-[10px_20px] border border-[#FFFFFF] font-syne">Get Customer Support</button>
           </div>
         </div>
-        <div className="flex-1 flex items-center justify-end">
-          <Image src={rock} alt="rock" className="w-full lg:w-[80%] h-[90%] lg:h-[80%]" />
+        <div className="flex-1 flex items-center justify-end mt-[40px] lg:mt-0">
+          <Image src={rock} alt="rock" className="w-full lg:w-[80%] h-full  2xl:h-[400px]" />
         </div>
       </div>
     </div>

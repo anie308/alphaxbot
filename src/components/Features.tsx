@@ -17,7 +17,7 @@ function Features() {
       <p className="text-[#081428] mb-[40px] font-[600] font-syne text-[28px] lg:text-[36px] text-center z-20">
         AlphaX Bot Features
       </p>
-      <div className="grid lg:grid-cols-3 gap-[20px] w-full lg:w-[80%] z-20">
+      <div className="grid lg:grid-cols-3 gap-[20px] w-full lg:w-[80%] z-20 2xl:container">
         <div className="bg-white rounded-[8px] shadow-sm flex flex-col items-start p-[20px] text-black">
           <div className="h-[136px] w-full bg-black">
             <Image
